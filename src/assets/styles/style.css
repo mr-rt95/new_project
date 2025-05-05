@@ -88,7 +88,6 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-    letter-spacing: 0.2px;
 }
 
 .header-form {
@@ -119,7 +118,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 36px;
-    letter-spacing: 0.2px;
 }
 
 .header-form button:hover {
@@ -186,7 +184,6 @@ main {
     font-weight: 800;
     font-size: 24px;
     line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
 }
 
@@ -195,8 +192,55 @@ main {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0.2px;
     text-align: center;
 }
 
 /* Section-1 End */
+
+/* Section-2 Start */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 376px;
+    background:
+        linear-gradient(rgba(248, 70, 70, 0.92), rgba(248, 70, 70, 0.92)),
+        url('../img/backgrounds/background2.png') no-repeat center center / cover;
+    color: #ffffff;
+}
+
+.section2-up {
+    text-align: center;
+    margin-top: 68px;
+}
+
+.section2-up h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.section2-up p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+
+}
+
+.section2-down {
+    display: flex;
+    justify-content: space-between;
+    width: 1088px;
+    margin: 78px 0;
+}
+
+.section2-down p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* Section-2 End */
