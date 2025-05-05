@@ -45,12 +45,23 @@ body {
     margin-right: 40px;
 }
 
-.contact-us {
+.header-nav li:hover {
+    color: #F84646;
+}
+
+.our-contact {
     background-color: #F84646;
     font-weight: 700;
     border-radius: 5px;
     padding: 10px 20px;
     color: #ffffff;
+}
+
+.our-contact:hover{
+    padding: 9px 19px;
+    border: 1px solid #F84646;
+    background-color: #ffffff;
+    color: #F84646;
 }
 
 .header-content {
@@ -101,7 +112,12 @@ body {
     font-size: 16px;
     line-height: 36px;
     letter-spacing: 0.2px;
+}
 
+.header-form button:hover {
+    color: #F84646;
+    background-color: #ffffff;
+    border: 1px solid #F84646;
 }
 
 /* Header end */
