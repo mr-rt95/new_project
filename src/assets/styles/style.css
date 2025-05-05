@@ -11,13 +11,21 @@ body {
 
 
 /* Header start */
+
 .header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     background-image: url(../img/backgrounds/background.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     height: 754px;
 }
 
@@ -57,7 +65,7 @@ body {
     color: #ffffff;
 }
 
-.our-contact:hover{
+.our-contact:hover {
     padding: 9px 19px;
     border: 1px solid #F84646;
     background-color: #ffffff;
@@ -122,6 +130,73 @@ body {
 
 /* Header end */
 
+/* Main start */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Section-1 Start */
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 120px;
+    margin-bottom: 140px;
+}
+
+.section-1 h2 {
+    margin-bottom: 30px;
+    height: 56px;
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.section-1 p {
+    max-width: 994px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.section1-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section1-mini-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    flex: 0 0 33%;
+    height: 211px;
+}
+
+.section1-mini-container h3 {
+    margin: 10px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section1-mini-container p {
+    width: 316px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
 
 /* Section-1 End */
