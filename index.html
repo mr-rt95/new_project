@@ -4,21 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="23 yıllık deneyimle, farklı sektörlerde uzmanlaşmış kadromuzla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunuyoruz. Yüksek kaliteyi korumanız için buradayız.">
+    <meta name="author" content="r-himov_t">
     <!-- /. meta tags -->
     <link rel="stylesheet" href="./src/assets/styles/reset.css">
     <link rel="stylesheet" href="./src/assets/styles/style.css">
     <link rel="stylesheet" href="./src/assets/styles/responsive.css">
     <!-- /. styles -->
     <title>Profesyonel BT Çözümleri | 23 Yıllık Deneyim</title>
-    <meta name="description"
-        content="23 yıllık deneyimle, farklı sektörlerde uzmanlaşmış kadromuzla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunuyoruz. Yüksek kaliteyi korumanız için buradayız.">
-    <meta name="author" content="r-himov_t">
 </head>
 
 <body>
     <header class="header">
-        <div class="header-box">
-            <div class="header-container">
+        <div class="header-cntr">
+
+            <div class="header-nav-desktop">
+                <div class="mob-nav">
+                    <a href="#"><img src="./src/assets/img/header/mob-nav.png" alt="Mobile nav"></a>
+                </div>
+                <!-- /.mob-nav -->
                 <nav class="header-nav">
                     <ul>
                         <li><a href="#">Çözüm ve Hizmetler</a></li>
@@ -28,16 +33,14 @@
                         <li><a href="#">Kurumsal</a></li>
                     </ul>
                 </nav>
-                <!-- /.header-nav -->
-                <button class="our-contact">
-                    İletişim
-                </button>
-                <!-- /.contact-us -->
+                <!-- /.header-desktop -->
+                <button onclick="openModal()" class="header-contact">İletişim</button>
+                <!-- /.header-contact -->
             </div>
-            <!-- /.header-container -->
+            <!-- /.header-nav-desktop -->
 
             <div class="header-content">
-                <h2>Bilgi Teknolojilerinde <br>
+                <h2>Bilgi Teknolojilerinde<br>
                     23 Yıllık Tecrübe</h2>
                 <p>Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış
                     uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
@@ -50,7 +53,6 @@
             </div>
             <!-- /.header-content -->
         </div>
-        <!-- /.header-box -->
     </header>
     <!-- /.header -->
     <main class="main">
@@ -277,17 +279,7 @@
     <!-- /.main -->
     <footer class="footer"></footer>
     <!-- /.footer -->
-    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundled/lenis.min.js"></script>
-    <script>
-        const lenis = new Lenis()
-
-        function raf(time) {
-            lenis.raf(time)
-            requestAnimationFrame(raf)
-        }
-        requestAnimationFrame(raf)
-    </script>
-
+    <script src="./src/assets/js/script.js"></script>
 </body>
 
 </html>
