@@ -151,6 +151,52 @@
 
     /* Section 1 end */
 
+    /* Section 2 start */
+
+    .section2 {
+        margin-top: 90px;
+    }
+
+    .section2-cover {
+        padding-block: 56px;
+    }
+
+    .section2-content h2 {
+        margin-bottom: 20px;
+        text-align: center;
+
+        font-size: 56px;
+        font-weight: 800;
+    }
+
+    .section2-content p {
+        text-align: center;
+
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .section2-mobile__svg {
+        display: none;
+    }
+
+    .section2-items {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 85px;
+
+        font-size: 14px;
+    }
+
+    .section2-item1,
+    .section2-item2,
+    .section2-item3,
+    .section2-item4 {
+        margin-inline: 35px;
+    }
+
+    /* Section 2 end */
 
 
 }
@@ -308,6 +354,55 @@
     }
 
     /* Section 1 end */
+
+
+    /* Section 2 start */
+
+    .section2 {
+        margin-top: 90px;
+    }
+
+    .section2-cover {
+        padding-block: 56px;
+    }
+
+    .section2-content h2 {
+        margin-bottom: 15px;
+        text-align: center;
+
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    .section2-content p {
+        text-align: center;
+
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .section2-mobile__svg {
+        display: none;
+    }
+
+    .section2-items {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 85px;
+
+        font-size: 14px;
+    }
+
+    .section2-item1,
+    .section2-item2,
+    .section2-item3,
+    .section2-item4 {
+        margin-inline: 20px;
+    }
+
+    /* Section 2 end */
+
 }
 
 
@@ -358,7 +453,6 @@
 
         white-space: normal;
         word-break: break-word;
-        /* keep only one, this is usually enough */
         overflow-wrap: break-word;
     }
 
@@ -479,5 +573,61 @@
 
     /* Section 1 end */
 
+    /* Section 2 start */
+
+    .section2 {
+        margin-top: 90px;
+    }
+
+    .section2-cover {
+        padding: 50px 20px 84px;
+    }
+
+    .section2-content h2 {
+        margin-bottom: 10px;
+        text-align: center;
+        white-space: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
+
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .section2-content p {
+        margin-bottom: 55px;
+        text-align: center;
+
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .section2-desktop__svg {
+        display: none;
+    }
+
+    .section2-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        margin-top: 85px;
+
+        font-size: 18px;
+    }
+
+    .section2-mobile__svg svg {
+        height: 30px;
+    }
+
+    .section2-item1,
+    .section2-item2,
+    .section2-item3,
+    .section2-item4 {
+        margin-block: 20px;
+    }
+
+    /* Section 2 end */
 
 }
