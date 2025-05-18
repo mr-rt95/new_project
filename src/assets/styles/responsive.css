@@ -409,6 +409,44 @@
 
     /* Section 4 end */
 
+    /* Section 5 start */
+
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 160px;
+    }
+
+    .section5 h2 {
+        margin-block: 10px 20px;
+        text-align: center;
+
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 32px;
+    }
+
+    .section5 p {
+        margin-bottom: 30px;
+        text-align: center;
+
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    .section5 button {
+        width: 240px;
+        height: 70px;
+        margin-bottom: 160px;
+
+        background-color: #F84646;
+        color: #FFFFFF;
+    }
+
+    /* Section 5 end */
 
 }
 
@@ -815,6 +853,44 @@
 
     /* Section 4 end */
 
+    /* Section 5 start */
+
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 160px;
+    }
+
+    .section5 h2 {
+        margin-block: 10px 20px;
+        text-align: center;
+
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 32px;
+    }
+
+    .section5 p {
+        margin-bottom: 30px;
+        text-align: center;
+
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    .section5 button {
+        width: 240px;
+        height: 70px;
+        margin-bottom: 160px;
+
+        background-color: #F84646;
+        color: #FFFFFF;
+    }
+
+    /* Section 5 end */
 
 }
 
@@ -1223,5 +1299,45 @@
     }
 
     /* Section 4 end */
+
+
+    /* Section 5 start */
+
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 160px;
+    }
+
+    .section5 h2 {
+        margin-block: 10px 20px;
+        text-align: center;
+
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 32px;
+    }
+
+    .section5 p {
+        margin-bottom: 30px;
+        text-align: center;
+
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    .section5 button {
+        width: 240px;
+        height: 70px;
+        margin-bottom: 160px;
+
+        background-color: #F84646;
+        color: #FFFFFF;
+    }
+
+    /* Section 5 end */
 
 }
