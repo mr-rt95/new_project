@@ -6,6 +6,12 @@
 
 This project is a frontend development exercise using **HTML**, **CSS**, and **JavaScript**. It focuses on building a clean, responsive, and accessible layout. All sections of the site are fully implemented, styled, and made responsive across devices. The codebase reflects a learning process with best practices in mind.
 
+## 🎨 Design Reference
+
+The website layout and visual style were based on the following Figma design:  
+[Peerstack Project Design on Figma](https://www.figma.com/proto/vVvUeCfU99OZ3NYSmw6MCL?node-id=0-1&t=NE3dUDf9qK3p5wbZ-6)
+
+
 ## 🚀 Technologies Used
 
 - HTML5  
